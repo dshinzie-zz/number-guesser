@@ -1,7 +1,12 @@
 /*http://tympanus.net/Development/ButtonStylesInspiration/*/
 
-#main-content {
+#main-content, header {
   text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
 }
 
 #user-input {
@@ -15,12 +20,13 @@
 }
 
 button {
+  font-size: 1.1rem;
   background: #37474f;
 	color: #fff;
   display: inline-block;
 	min-width: 150px;
 	max-width: 2 50px;
-  width: 180px;
+  width: 170px;
 	margin: 1em;
 	padding: 1em 2em;
 	border: none;
@@ -84,5 +90,9 @@ button:hover::before {
 }
 
 #reset {
-  width: 380px;
+  width: 370px;
+}
+
+#last-guess {
+  font-size: 5rem;
 }
