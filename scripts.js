@@ -5,7 +5,6 @@ var clear = document.getElementById('clear');
 var reset = document.getElementById('reset');
 var resultsText = document.getElementById('results-text');
 
-
 guess.addEventListener('click', function() {
   checkGuess();
 });
@@ -53,5 +52,4 @@ function checkGuess() {
   if (inputValue == randomNumber) {
     return resultsText.innerText = 'Correct!';
   }
-
 }
